@@ -7,7 +7,7 @@ A directory of Substrate-related resources and tools.
 
 ### Substrate4users: User-friendly resources and tools
 * The first point of call for those who need to find a footing in the Substrate ecosystem.
-* 15 links.
+* 14 links.
 
 ### Substrate4learners: Beginner-friendly explainers.
 * The next step for those who want to understand the basics of Substrate technologies.

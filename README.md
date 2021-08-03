@@ -1,25 +1,25 @@
 # Substrate4
 
-A directory of Substrate-related resources and tools.
+A directory of Substrate-related resources.
 
 
 ## Content
 
-### [Substrate4users: User-friendly resources and tools](https://github.com/anaelleltd/substrate4/index.html)
-* The first point of call for those who need to find a footing in the Substrate ecosystem.
+### Substrate4users: User-friendly DApps and resources.
+* For those who need to find a footing in the Substrate ecosystem.
 * 14 items.
 
 ### Substrate4learners: Beginner-friendly explainers.
-* The next step for those who want to understand the basics of Substrate technologies.
-* 11 items.
+* For those who want to understand Substrate technologies.
+* -- items.
 
 ### Substrate4builders: Developer-focused tutorials and tools.
-* The next level for those who are eager to play with the Substrate Framework.
-* 8 item.
+* For those who are eager to play with the Substrate Framework.
+* -- items.
 
 ### Substrate4researchers: Essential publications and whitepapers.
-* The final stage for those who are dying to optimise Substrate protocols.
-* 5 items.
+* For those who are dying to define and optimise Substrate protocols.
+* -- items.
 
 
 ## Contribute

@@ -1,0 +1,19 @@
+.navbar-brand {
+    color: #dc3545;
+}
+
+.services-item {
+    background-color: whitesmoke;
+}
+
+body {
+    background-color: lightgray;
+}
+
+h3{
+    color: darkblue;
+}
+
+p {
+    color: black;
+}

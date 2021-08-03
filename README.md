@@ -5,7 +5,7 @@ A directory of Substrate-related resources and tools.
 
 ## Content
 
-### [Substrate4users: User-friendly resources and tools](https://github.com/anaelleltd/substrate4/blob/main/dir/Substrate4users.pdf)
+### [Substrate4users: User-friendly resources and tools](https://github.com/anaelleltd/substrate4/blob/main/dir/index.html)
 * The first point of call for those who need to find a footing in the Substrate ecosystem.
 * 14 items.
 

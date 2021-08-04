@@ -11,15 +11,15 @@ A directory of Substrate-related resources.
 
 ### Substrate4learners: Beginner-friendly explainers.
 * For those who want to understand Substrate technologies.
-* -- items.
+* TBC.
 
 ### Substrate4builders: Developer-focused tutorials and tools.
 * For those who are eager to play with the Substrate Framework.
-* -- items.
+* TBC.
 
 ### Substrate4researchers: Essential publications and whitepapers.
 * For those who are dying to define and optimise Substrate protocols.
-* -- items.
+* TBC.
 
 
 ## Contribute

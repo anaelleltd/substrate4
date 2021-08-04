@@ -18,7 +18,7 @@ A directory of Substrate-related resources.
 * TBC.
 
 ### Substrate4researchers: Essential publications and whitepapers.
-* For those who are dying to define and optimise Substrate protocols.
+* For those who are dying to optimise Substrate protocols.
 * TBC.
 
 

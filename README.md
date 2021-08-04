@@ -11,7 +11,7 @@ A directory of Substrate-related resources.
 
 ### Substrate4learners: Beginner-friendly explainers.
 * For those who want to understand Substrate technologies.
-* TBC.
+* 11 items.
 
 ### Substrate4builders: Developer-focused tutorials and tools.
 * For those who are eager to play with the Substrate Framework.

@@ -7,7 +7,7 @@ A directory of Substrate-related resources.
 
 ### Substrate4users: User-friendly DApps and resources.
 * For those who need to find a footing in the Substrate ecosystem.
-* 14 items.
+* 15 items.
 
 ### Substrate4learners: Beginner-friendly explainers.
 * For those who want to understand Substrate technologies.
@@ -15,7 +15,7 @@ A directory of Substrate-related resources.
 
 ### Substrate4builders: Developer-focused tutorials and tools.
 * For those who are eager to play with the Substrate Framework.
-* TBC.
+* 19 items.
 
 ### Substrate4researchers: Essential publications and whitepapers.
 * For those who are dying to optimise Substrate protocols.

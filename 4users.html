@@ -23,28 +23,248 @@
     <!-- Responsive Style -->
     <link rel="stylesheet" href="assets/css/responsive.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- MDBootstrap Datatables  -->
+    <link rel="stylesheet" href="assets/css/addons/datatables.min.css">
+
   </head>
   <body>
   	<!-- Header Area wrapper Starts -->
     <header id="header-wrap">
-      <!-- Navbar Start -->
+      <!-- Navbar Starts -->
       <nav class="navbar navbar-expand-md bg-white fixed-top scrolling-navbar">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a href="index.html" class="navbar-brand">Substrate4</a>       
-      	</div>
-  	  </nav>
+          <a href="index.html" class="navbar-brand">Substrate4</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="lni-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+              <li class="nav-item active">
+                <a class="nav-link" href="./4users.html">
+                  4users
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./4learners.html">
+                  4learners
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./4builders.html">
+                  4builders
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">
+                  4researchers [TBC]
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End --> 
 	</header>
-
-	<!-- Substrate4s PDF Section Start -->
+   <!-- Header Area wrapper Ends -->
+  <br/>
+  <br/>
+  <br/>
+  <!-- Substrate4s TABLE Section Start -->
     <section class="section-padding">
       <div class="container">
-      	<div class="col-md-12 col-lg-12 col-xs-12">
-      		<embed src="./Substrate4users.pdf" type="application/pdf" width=100% height=850px/>
-         </div>
+        <div class="section-header text-center">
+          <h2>Substrate4users</h2>
+          <h4 class="italic">User-friendly DApps and resources</h3>
+        </div>
+        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 table-responsive text-nowrap">
+          <table id="dtOrderExample" class="table table-striped table-bordered" cellspacing="0" width="100%">
+            <thead>
+              <tr>
+                <th scope="col" class="bold">Projects
+                </th>
+                <th scope="col" class="bold">Focus areas
+                </th>
+                <th scope="col" class="bold">Supported networks
+                </th>
+                <th scope="col" class="bold">Descriptions
+                </th>
+                <th scope="col" class="bold">Sponsors
+                </th>
+                <th scope="col" class="bold">Inception
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="underline"><a href="https://ksmsociety.io/">Kappa Sigma Mu (KΣM)</a></th>
+                <td>Relay chain collective</td>
+                <td>Kusama</td>
+                <td>Discover and become a member of the <br/>Human blockchain.</td>
+                <td class="italic">Kusama <br/>Treasury</td>
+                <td>2020/01</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://polkawallet.io/">Polkawallet</a></th>
+                <td>Wallet operations</td>
+                <td>Substrate chains</td>
+                <td>Manage all staking, governance, DeFi and <br/>interchain transactions.</td>
+                <td class="italic">W3F</td>
+                <td>2020/03</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://www.polkaproject.com/#/">PolkaProject</a></th>
+                <td>DApps aggregation</td>
+                <td>Substrate chains</td>
+                <td>Access all DApps released within the <br/>Substrate ecosystem.</td>
+                <td class="italic">Polkadot <br/>Treasury</td>
+                <td>2020/04</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://fearlesswallet.io/">Fearless Wallet</a></th>
+                <td>Wallet operations</td>
+                <td>Substrate chains</td>
+                <td>Manage all staking, crowdloaning, voting and <br/>DeFi transactions.</td>
+                <td class="italic">Kusama <br/>Treasury</td>
+                <td>2020/05</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://dotmarketcap.com/">DotMarketCap</a></th>
+                <td>Coin valuations</td>
+                <td>Substrate chains</td>
+                <td>Track the market cap and token prices of <br/>Substrate projects.</td>
+                <td class="italic">Illusionist <br/>group</td>
+                <td>2020/06</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://polkadot.polkassembly.io/">Polkassembly</a></th>
+                <td>Relay chain forum</td>
+                <td>Polkadot & Kusama</td>
+                <td>View and participate in discussion threads <br/>about governance.</td>
+                <td class="italic">Premiurly</td>
+                <td>2020/07</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://polkastats.io/">Polkastats</a></th>
+                <td>Relay chain dashboard</td>
+                <td>Polkadot & Kusama</td>
+                <td>View essential Relay chains statistics and <br/>metrics.</td>
+                <td class="italic">W3F</td>
+                <td>2020/09</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://www.subscan.io/">Subscan</a></td>
+                <td>Chain explorer</th>
+                <td>Substrate chains & testnets</td>
+                <td>Explore all Substrate chains accounts and <br/>transactions.</td>
+                <td class="italic">Kusama <br/>Treasury</td>
+                <td>2020/11</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://www.dotreasury.com/">DotTreasury</a></th>
+                <td>Treasury explorer</td>
+                <td>Polkadot & Kusama</td>
+                <td>Track all ecosystem initiatives and funds <br/>managed by on-chain treasuries.</td>
+                <td class="italic">Kusama <br/>Treasury</td>
+                <td>2020/12</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://parachains.info/">Parachains.info</a></th>
+                <td>Integration Specialist</td>
+                <td>Substrate chains</td>
+                <td>Track Parachains candidates’ information and <br/>related news.</td>
+                <td>None</td>
+                <td>2021/02</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://polkaview.network/">Polkaview</a></th>
+                <td>Staking information</td>
+                <td>Polkadot & Kusama</td>
+                <td>View minimum staking requirements and <br/>statistics.</td>
+                <td>None</td>
+                <td>2021/02</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://polkachu.com/kusama/thousand_validators">1KV Leaderboard</a></th>
+                <td>Validator selection</td>
+                <td>Polkadot & Kusama</td>
+                <td>Track validators’ ranking and staking <br/>performance.</td>
+                <td>None</td>
+                <td>2021/04</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://playing-with-dust.github.io/nominumbers/">Nominumbers</a></th>
+                <td>Staking analysis</td>
+                <td>Polkadot & Kusama</td>
+                <td>Track the staking APY of your overall <br/>nominations.</td>
+                <td>None</td>
+                <td>2021/05</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://playing-with-dust.github.io/phragviz/">Phragmén explorable</a></th>
+                <td>Voting information</td>
+                <td>Substrate chains</td>
+                <td>Discover the algorithm used for staking and <br/>democracy elections.</td>
+                <td>None</td>
+                <td>2021/06</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://www.subvis.io/">Subvis</a></th>
+                <td>Auction dashboard</td>
+                <td>Parachain candidates</td>
+                <td>Track slot auctions and leases.</td>
+                <td>None</td>
+                <td>2021/06</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://app.talisman.community/">Talisman</a></th>
+                <td>Wallet operations</td>
+                <td>Substrate chains</td>
+                <td>Manage all staking, crowdloaning, voting and <br/>DeFi transactions.</td>
+                <td class="italic">FlexD@pp$</td>
+                <td>2021/07</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://james-sangalli.github.io/dot-staking-income-web/">Staking income</a></th>
+                <td>Staking information</td>
+                <td>Polkadot & Kusama</td>
+                <td>Export staking income information with fiat <br/>values as an excel spreadsheet.</td>
+                <td>None</td>
+                <td>2021/08</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://polkachu.com/polkadot/era_summaries">State of Polkadot & <br/>Kusama</a></th>
+                <td>Staking information</td>
+                <td>Polkadot & Kusama</td>
+                <td>Track essential staking data (i.e issuance, <br/>inflation, active nominators, etc.)</td>
+                <td>None</td>
+                <td>2021/08</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th class="bold">Projects
+                </th>
+                <th class="bold">Focus areas
+                </th>
+                <th class="bold">Supported networks
+                </th>
+                <th class="bold">Descriptions
+                </th>
+                <th class="bold">Sponsors
+                </th>
+                <th class="bold">Inception
+                </th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <p><button id="csv" class="btn btn-success">CSV</button> <button id="json" class="btn btn-primary">JSON</button> <button id="pdf" class="btn btn-secondary disabled">PDF</button></p>
      </div>
- 	</section>
- 	<!-- Substrate4s PDF Section End -->
+  </section>
+  <!-- Substrate4s TABLE Section End -->
 
  	<!-- Footer Section Start -->
     <footer id="footer">            
@@ -53,8 +273,8 @@
           <div class="row">
             <div class="col-md-12">
               <div class="copyright-content">
-                <p>Last updated: 23rd August 2021</p>
-                <p>Copyright © 2021 Anaelle LTD | <a rel="nofollow" href="https://uideck.com">UIdeck</a></p>
+                <p>Last updated: 29th August 2021</p>
+                <p>Copyright © 2021 <a href="https://anaelleltd.company/">Anaelle LTD</a> | <a rel="nofollow" href="https://uideck.com">UIdeck</a> | <a href="https://mdbootstrap.com/">MDB</a></p>
               </div>
             </div>
           </div>
@@ -62,5 +282,53 @@
       </div>   
     </footer> 
     <!-- Footer Section End -->
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="lni-arrow-up"></i>
+    </a>
+    
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>  
+    <script src="assets/js/main.js"></script>
+    <!-- MDB core JavaScript -->
+    <script src="assets/js/mdb.min.js"></script>
+    <!-- MDBootstrap Datatables  -->
+    <script src="assets/js/addons/datatables.min.js"></script>
+    <!-- DataTable Sort-->
+    <script>
+      $(document).ready(function () {
+        $('#dtOrderExample').DataTable({
+        "order": [[ 5, "asc" ]]
+        });
+        $('.dataTables_length').addClass('bs-select');
+      });
+    </script>
+    <!-- Table2JSON/CSV -->
+    <script src="assets/js/tableHTMLExport.js"></script>
+    <script>
+      $('#json').on('click',function(){
+        $("#dtOrderExample").tableHTMLExport({type:'json',filename:'substrate4users.json'});
+      })
+      $('#csv').on('click',function(){
+        $("#dtOrderExample").tableHTMLExport({type:'csv',filename:'substrate4users.csv'});
+      })
+      </script>
+      
+  </body>
+</html>
 
   		

@@ -23,38 +23,266 @@
     <!-- Responsive Style -->
     <link rel="stylesheet" href="assets/css/responsive.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- MDBootstrap Datatables  -->
+    <link rel="stylesheet" href="assets/css/addons/datatables.min.css">
+
   </head>
   <body>
-  	<!-- Header Area wrapper Starts -->
+    <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
       <!-- Navbar Start -->
       <nav class="navbar navbar-expand-md bg-white fixed-top scrolling-navbar">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a href="index.html" class="navbar-brand">Substrate4</a>       
-      	</div>
-  	  </nav>
-	</header>
-
-	<!-- Substrate4s PDF Section Start -->
+          <a href="index.html" class="navbar-brand">Substrate4</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="lni-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+              <li class="nav-item">
+                <a class="nav-link" href="./4users.html">
+                  4users
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./4learners.html">
+                  4learners
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./4builders.html">
+                  4builders
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">
+                  4researchers [TBC]
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End --> 
+  </header>
+   <!-- Header Area wrapper Ends -->
+  <br/>
+  <br/>
+  <br/>
+  <!-- Substrate4s TABLE Section Start -->
     <section class="section-padding">
       <div class="container">
-      	<div class="col-md-12 col-lg-12 col-xs-12">
-      		<embed src="./Substrate4builders.pdf" type="application/pdf" width=100% height=850px/>
-         </div>
+        <div class="section-header text-center">
+          <h2>Substrate4builders</h2>
+          <h4 class="italic">Developer-focused tutorials and tools</h3>
+        </div>
+        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 table-responsive text-nowrap">
+          <table id="dtOrderExample" class="table table-striped table-bordered" cellspacing="0" width="100%">
+            <thead>
+              <tr>
+                <th scope="col" class="bold">Titles
+                </th>
+                <th scope="col" class="bold">Focus areas
+                </th>
+                <th scope="col" class="bold">Supported languages
+                </th>
+                <th scope="col" class="bold">Descriptions
+                </th>
+                <th scope="col" class="bold">Contributors
+                </th>
+                <th scope="col" class="bold">Initialisation
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="underline"><a href="https://www.youtube.com/watch?v=0IoUZdDi5Is">Substrate: A rustic <br/>vision for Polkadot</a></th>
+                <td>Runtimes, Pallets</td>
+                <td>CLI, Rust, ReactJS</td>
+                <td>The first public demo of the framework <br/>by Dr Gavin Wood at Web3 Summit.</td>
+                <td class="italic">W3F</td>
+                <td>2018/10</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://www.substrate.io/substrate-users/">Substrate builders</a></th>
+                <td>Chains, parachains, <br/>infrastructure, tools</td>
+                <td>Various</td>
+                <td>Discover all the decentralised projects <br/>that are building with the framework.</td>
+                <td class="italic">Parity Technologies</td>
+                <td>2018</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://matrix.to/#/#substrate-technical:matrix.org">Substrate Element <br/>(Chat)</a></th>
+                <td>Technical support</td>
+                <td>Various</td>
+                <td>Find practical advice for troubleshooting <br/>errors and get real-time support.</td>
+                <td class="italic">Parity Technologies</td>
+                <td>2018</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://web3.foundation/grants/">W3F Grants:</a><br/><a href="https://github.com/w3f/Grants-Program">Programs</a> | <a href="https://github.com/w3f/Grants-Program/blob/master/docs/accepted_grant_applications.md">Recipients</a></th>
+                <td>Grants, ecosystem <br/>projects</td>
+                <td>Various</td>
+                <td>Search for ongoing Web 3.0 development <br/>areas and apply for funding. </td>
+                <td class="italic">W3F</td>
+                <td>2019/01</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://substrate.dev/seminar">Substrate Seminar</a></th>
+                <td>Runtimes, pallets, <br/>tools, ecosystem <br/>projects</td>
+                <td>Various</td>
+                <td>Learn about various implementations <br/>of the framework through presentations <br/>from building teams.</td>
+                <td class="italic">Purestake, Patract <br/>Labs, Kilt, Subsocial, <br/>Limechain, etc.</td>
+                <td>2019/06</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://substrate.dev/en/tutorials">Substrate Tutorials <br/>and Workshops</a></th>
+                <td>Nodes, SCs (Wasm <br/>& EVM), parachains</td>
+                <td>CLI, Rust, ReactJS, <br/>ink!, Solidity, Javascript</td>
+                <td>Learn all the basics needed to build <br/>networks and upgrade blockchains.</td>
+                <td class="italic">Parity Technologies, <br/>Moonbeam</td>
+                <td>2019/07</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://relaychain.fm/">Relay chain</a></th>
+                <td>Web 3.0, ecosystem <br/>projects</td>
+                <td>Various</td>
+                <td>Explore the latest use-cases developed <br/>by ecosystem teams. </td>
+                <td class="italic">Parity Technologies</td>
+                <td>2019/08</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://playground.substrate.dev/">Substrate <br/>Playground</a></th>
+                <td>Runtimes, pallets</td>
+                <td>Rust, Javascript</td>
+                <td>Build your blockchain from the ground up <br/>through interactive step-by-step tasks.</td>
+                <td class="italic">Parity Technologies</td>
+                <td>2019</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://polkadot.js.org/docs/">Polkadot{.js}</a></th>
+                <td>Tools</td>
+                <td>ReactJS, VueJS, <br/>Javascript</td>
+                <td>A collection of tools, libraries, and utilities <br/>for blockchain interactions.</td>
+                <td class="italic">Parity Technologies</td>
+                <td>2019</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://www.shawntabrizi.com/substrate-js-utilities/">Substrate Utilities</a></th>
+                <td>Tools</td>
+                <td>Javascript</td>
+                <td>A collection of Polkadot.js API-based <br/>utilities for the framework.</td>
+                <td>Shawn Tabrizi</td>
+                <td>2019</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://wiki.polkadot.network/docs/build-index">Polkadot Wiki -<br/>Build</a></th>
+                <td>General <br/>documentation</td>
+                <td>Various</td>
+                <td>Access up-to-date information on <br/>ecosystem tools and frameworks.</td>
+                <td class="italic">W3F</td>
+                <td>2020/04</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://dotleap.com/">DotLeap</a></th>
+                <td>Tools</td>
+                <td>VueJS, Javascript</td>
+                <td>Build re-usable UI components for <br/>blockchains dashboards and widgets.</td>
+                <td class="italic">W3F</td>
+                <td>2020/05</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://github.com/paritytech/srtool">Srtool</a></th>
+                <td>Runtimes, Pallets</td>
+                <td>CLI, Rust, Dockerfile</td>
+                <td>A collection of tools for building and <br/>verifying runtimes.</td>
+                <td class="italic">Parity Technologies</td>
+                <td>2020/08</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://dotjobs.net/">DotJobs</a></th>
+                <td>Careers, ecosystem <br/>projects</td>
+                <td>Various</td>
+                <td>Search for ongoing positions and apply <br/>to join teams of ecosystem builders. </td>
+                <td class="italic">Stateless.Money</td>
+                <td>2020/10</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://anaelleltd.company/blog/2021/01/18/how-does-web-3-development-work/">How does Web 3.0 <br/> development work?</a></th>
+                <td>General guide</td>
+                <td>CLI, Rust, ReactJS, <br/>VueJS, Javascript</td>
+                <td>A series of entry-level articles on key <br/>concepts, operations, and libraries.</td>
+                <td>Anaelle LTD</td>
+                <td>2021/01</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://grafana.com/grafana/dashboards/13840">Polkadot Essentials</a></th>
+                <td>Nodes, parachains</td>
+                <td>Various</td>
+                <td>Monitor nodes and chain metrics through <br/>a customisable dashboard.</td>
+                <td class="italic">BLD Nodes</td>
+                <td>2021/02</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://substrate.dev/substrate-how-to-guides/">Substrate <br/>How-to guides</a></th>
+                <td>Runtimes, pallets, <br/>Dapps</td>
+                <td>CLI, Rust, ReactJS, <br/>Javascript</td>
+                <td>Explore specific areas of the framework <br/>and complete standalone tasks.</td>
+                <td class="italic">Parity Technologies</td>
+                <td>2021/05</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://www.youtube.com/channel/UCOD_I9RMZ1JwfUdN-yJqqsw/videos">#Polkadot</a></th>
+                <td>SCs, DApps, tools</td>
+                <td>CLI, Rust, ReactJS, <br/>Javascript</td>
+                <td>A series of entry-level videos on Smart <br/>Contracts and DApps libraries.</td>
+                <td>Nick Shulhin</td>
+                <td>2021/06</td>
+              </tr>
+              <tr>
+                <th scope="row" class="underline"><a href="https://github.com/turboflakes/crunch">Crunch</a></th>
+                <td>Tools</td>
+                <td>CLI, Rust</td>
+                <td>Automate staking rewards payouts and <br/>analytics for validators and nominators.</td>
+                <td class="italic">Turboflakes</td>
+                <td>2021/07</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th class="bold">Titles
+                </th>
+                <th class="bold">Focus areas
+                </th>
+                <th class="bold">Supported languages
+                </th>
+                <th class="bold">Descriptions
+                </th>
+                <th class="bold">Contributors
+                </th>
+                <th class="bold">Initialisation
+                </th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <p><button id="csv" class="btn btn-success">CSV</button> <button id="json" class="btn btn-primary">JSON</button> <button id="pdf" class="btn btn-secondary disabled">PDF</button></p>
      </div>
- 	</section>
- 	<!-- Substrate4s PDF Section End -->
+  </section>
+  <!-- Substrate4s TABLE Section End -->
 
- 	<!-- Footer Section Start -->
+  <!-- Footer Section Start -->
     <footer id="footer">            
       <div id="copyright">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
               <div class="copyright-content">
-                <p>Last updated: 20th August 2021</p>
-                <p>Copyright © 2021 Anaelle LTD | <a rel="nofollow" href="https://uideck.com">UIdeck</a></p>
+                <p>Last updated: 29th August 2021</p>
+                <p>Copyright © 2021 <a href="https://anaelleltd.company/">Anaelle LTD</a> | <a rel="nofollow" href="https://uideck.com">UIdeck</a> | <a href="https://mdbootstrap.com/">MDB</a></p>
               </div>
             </div>
           </div>
@@ -62,5 +290,53 @@
       </div>   
     </footer> 
     <!-- Footer Section End -->
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="lni-arrow-up"></i>
+    </a>
+    
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>  
+    <script src="assets/js/main.js"></script>
+    <!-- MDB core JavaScript -->
+    <script src="assets/js/mdb.min.js"></script>
+    <!-- MDBootstrap Datatables  -->
+    <script src="assets/js/addons/datatables.min.js"></script>
+    <!-- DataTable Sort-->
+    <script>
+      $(document).ready(function () {
+        $('#dtOrderExample').DataTable({
+        "order": [[ 5, "asc" ]]
+        });
+        $('.dataTables_length').addClass('bs-select');
+      });
+    </script>
+    <!-- Table2JSON/CSV -->
+    <script src="assets/js/tableHTMLExport.js"></script>
+    <script>
+      $('#json').on('click',function(){
+        $("#dtOrderExample").tableHTMLExport({type:'json',filename:'substrate4builders.json'});
+      })
+      $('#csv').on('click',function(){
+        $("#dtOrderExample").tableHTMLExport({type:'csv',filename:'substrate4builders.csv'});
+      })
+      </script>
+      
+  </body>
+</html>
 
   		
